@@ -49,7 +49,8 @@ npm run prod
 ```
 for running in a production environment.
 
-If you are running this on a linux server, you can install the ts3bot.service file, then you can run this api as a service.
+If you are running this on a linux server, you can install the ts3bot.service file, then you can run this api as a service. 
+If you install the service, note that you might have to change the paths in the file to your preferences.
 
 # PHP Compatability
 Since the api only returns the query answer as plain text, we still have to parse the text. I have added an php functions file in the examples folder. 
