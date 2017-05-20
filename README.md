@@ -54,6 +54,6 @@ Since the api only returns the query answer as plain text, we still have to pars
 In this file there is a function called arrayify, please don't judge me by my horrible naming of functions ... 
 This arrayify function seperates all subcategories of the returned string.
 
-# FInal Notes
+# Final Notes
 Please don't hesitate to correct my spelling / coding. 
 I have the feeling that my php code ist pretty inefficient, so if you find a better solution, please send me a Message or open a new issue. :P
