@@ -35,7 +35,11 @@ the server subcategory is for production use on your server
 the local subcategory is for development on your local system
 
 start the server by running:
+```
 npm run dev
+```
 for development and
+```
 npm run prod
+```
 for running in a production environment
