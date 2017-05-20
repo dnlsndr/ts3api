@@ -1,0 +1,18 @@
+[Unit]
+Description=HUBBOT
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/node /var/www/hubbot/index.js prod
+Restart=always
+
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=hubbot
+
+Environment=PATH=/usr/bin:/usr/local/bin
+Environment=NODE_ENV=production
+#WorkingDirectory=/var/www/hubbot
+
+[Install]
+WantedBy=multi-user.target
