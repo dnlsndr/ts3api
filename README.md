@@ -32,9 +32,10 @@ config.json example:
     }
 }
 ```
-the server subcategory is for production use on your server 
-the local subcategory is for development on your local system 
 
+the server subcategory is for production use on your server, 
+the local subcategory is for development on your local system 
+ 
 # Run the API
 start the server by running:
 ```
