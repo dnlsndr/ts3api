@@ -2,8 +2,9 @@
 A NODE server that connects to your local Ts3 instance for easy communication via api with php or other languages.
 
 
-Please create a config.json file in the root folder
-fill out the following example and copy it into the config.json
+Please create a config.json file in the root folder. 
+
+Fill out the following example and copy it into the config.json 
 
 config.json example:
 ```json
@@ -31,9 +32,10 @@ config.json example:
     }
 }
 ```
-the server subcategory is for production use on your server
-the local subcategory is for development on your local system
+the server subcategory is for production use on your server 
+the local subcategory is for development on your local system 
 
+# Run the API
 start the server by running:
 ```
 npm run dev
