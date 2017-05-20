@@ -52,7 +52,7 @@ socket.on('close', function(e){
 //It then uses the command in the url and writes it into the socket connection to the teamspeak, 
 // where it then gets back all the wanted data and palces it in as an JSON object in to the HTML body. 
 // The result is concerted to a string where all extra unneeded objects are deleted. i.e. /n /r slashes
-app.get('/hubbot/api/:_command', function (req, res) {
+app.get('/ts3bot/api/:_command', function (req, res) {
 	var request = req.params._command;
 	console.log(request)
 	socket.write(request + "\n")
