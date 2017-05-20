@@ -1,7 +1,7 @@
 # ts3api
 A NODE server that connects to your local Ts3 instance for easy communication via api with php or other languages.
-This bot was created due to the necessety of having a bot, that stays online on the ts3 server all the time. The thing ive realised with other ts3 php frameworks like the common ts3php framework (https://www.planetteamspeak.com/) is, that they only connect to the server when a command is executed, then it disconnects again. Meanwhile, the port number is raising more and more, once I went from port 5600 to port 71000 in a weeks time, just because it always reconnected.
-This is especially a problem, when you build a website that hast to i.e. update the client list every 5 minutes.
+This bot was created due to the necessety of having a bot, that stays online on the ts3 server all the time. The thing ive realised with other ts3 php frameworks like the common ts3php framework (https://www.planetteamspeak.com/) is, that they only connect to the server when a command is executed, then it disconnects again. Meanwhile, the access port number of the connecting query is raising more and more, once I went from port 5600 to port 71000 in a weeks time, just because it always reconnected.
+This is especially a problem, when you build a website that has to i.e. update the client list every 5 minutes.
 
 # Configuration
 Please create a config.json file in the root folder. 
