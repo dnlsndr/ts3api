@@ -1,14 +1,14 @@
 {
   "name": "hubbot",
   "version": "1.0.2",
-  "description": "A Bot instance for ts3 for the USP-S.de website",
+  "description": "A Bot instance for ts3",
   "main": "index.js",
   "scripts": {
     "dev": "./node_modules/.bin/nodemon ./index.js dev",
     "prod": "node ./index.js prod"
   },
   "author": "",
-  "license": "MIT",
+  "license": "GNU",
   "dependencies": {
     "express": "^4.15.2",
     "net": "^1.0.2"
