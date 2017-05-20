@@ -53,3 +53,7 @@ If you are running this on a linux server, you can install the ts3bot.service fi
 Since the api only returns the query answer as plain text, we still have to parse the text. I have added an php functions file in the examples folder. 
 In this file there is a function called arrayify, please don't judge me by my horrible naming of functions ... 
 This arrayify function seperates all subcategories of the returned string.
+
+# FInal Notes
+Please don't hesitate to correct my spelling / coding. 
+I have the feeling that my php code ist pretty inefficient, so if you find a better solution, please send me a Message or open a new issue. :P
