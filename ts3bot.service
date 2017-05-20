@@ -1,9 +1,9 @@
 [Unit]
-Description=HUBBOT
+Description=ts3bot
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/node /var/www/hubbot/index.js prod
+ExecStart=/usr/bin/node /var/www/ts3bot/index.js prod
 Restart=always
 
 StandardOutput=syslog
@@ -12,7 +12,7 @@ SyslogIdentifier=hubbot
 
 Environment=PATH=/usr/bin:/usr/local/bin
 Environment=NODE_ENV=production
-#WorkingDirectory=/var/www/hubbot
+#WorkingDirectory=/var/www/ts3bot
 
 [Install]
 WantedBy=multi-user.target
