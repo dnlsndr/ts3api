@@ -44,4 +44,4 @@ npm run prod
 ```
 for running in a production environment
 
-If you are running this on a linux server, you can add the install .service file, then you can run this api as a service.
+If you are running this on a linux server, you can install the .service file, then you can run this api as a service.
