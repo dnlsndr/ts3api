@@ -53,10 +53,10 @@ If you are running this on a linux server, you can install the ts3bot.service fi
 If you install the service, note that you might have to change the paths in the file to your preferences.
 
 # PHP Compatability
-Since the api only returns the query answer as plain text, we still have to parse the text. I have added an php functions file in the examples folder. 
+Since the api only returns the query answer as plain text, we still have to parse the text to an array. I have added a php functions file in the examples folder. 
 In this file there is a function called arrayify, please don't judge me by my horrible naming of functions ... 
-This arrayify function seperates all subcategories of the returned string.
+This arrayify function seperates all subcategories of the returned string. Seperators are: pipe sysmbol (|,\p), spaces, and equal signs(=)
 
 # Final Notes
 Please don't hesitate to correct my spelling / coding. 
-I have the feeling that my php code ist pretty inefficient, so if you find a better solution, please send me a Message or open a new issue. :P
+I have the feeling that my php code is pretty inefficient, so if you find a better solution, please let me know or open a new issue. :P
